@@ -1,0 +1,941 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>KMEPT</title>
+   <link rel="stylesheet" href="css/nice-select.css">
+   <link rel="stylesheet" href="css/style.css"> 
+</head>
+<body>
+<div class="wrapper">
+	<header class="header">
+		<div class="header__container">
+			<div class="header__top">
+				<a href="#" class="header__logo">
+					<img src="img/logo.png" alt="">
+					<span>Колледж мировой экономики <br>и передовых технологий</span>
+				</a>
+				<div class="header__actions">
+					<a href="students.html" class="header__students" data-da=".main__subtitle, 991, last">
+						<svg width="122" height="122" viewBox="0 0 122 122" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path d="M74.2015 61.3935L54.3525 61.3935M74.2015 61.3935L69.7906 65.4065M74.2015 61.3935L69.7906 57.3804" stroke="#FF00FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						<path d="M88.1707 61.3933C88.1707 74.7013 77.4757 85.4751 64.3005 85.4751C51.1253 85.4751 40.4302 74.7013 40.4302 61.3933C40.4302 48.0853 51.1253 37.3115 64.3005 37.3115C77.4757 37.3115 88.1707 48.0853 88.1707 61.3933Z" stroke="#FF00FF" stroke-width="2"/>
+						<path d="M34.3974 82.7778L22.4168 82.3025L21.6054 80.2026L30.1577 71.8054L31.0776 74.1862L29.157 76.0147L30.8484 80.3918L33.5003 80.4561L34.3974 82.7778ZM28.5536 80.3426L27.4908 77.5921L24.7166 80.2427L28.5536 80.3426Z" fill="#FF00FF"/>
+						<path d="M26.8056 62.8369C26.7655 62.2368 26.5298 61.7589 26.0986 61.4032C25.6571 61.0481 25.1293 60.8882 24.5154 60.9235C23.9119 60.9582 23.4103 61.1879 23.0104 61.6125C22.6099 62.0267 22.4294 62.5285 22.4688 63.1182C22.509 63.7183 22.7551 64.1956 23.2071 64.5501C23.6486 64.9052 24.1764 65.0651 24.7903 65.0298C25.3937 64.9951 25.8906 64.771 26.2807 64.3574C26.6701 63.9334 26.8451 63.4266 26.8056 62.8369ZM28.8523 62.7509C28.9482 64.1828 28.5948 65.3024 27.7924 66.1096C26.9795 66.9174 25.7667 67.3676 24.1539 67.4604C23.5816 67.4933 23.0756 67.5013 22.6357 67.4843C22.1855 67.468 21.7061 67.4057 21.1975 67.2976C20.6882 67.1789 20.2485 67.0087 19.8785 66.7868C19.5079 66.5545 19.1673 66.2253 18.8567 65.7992C18.5455 65.3627 18.3122 64.8423 18.1569 64.2382L17.0263 59.7531L18.8738 59.2663L20.0898 63.8575C20.4359 65.1271 21.1373 65.7737 22.1938 65.7975C21.8371 65.6172 21.495 65.267 21.1678 64.7467C20.8301 64.2271 20.6352 63.5777 20.583 62.7986C20.5097 61.7036 20.8316 60.7391 21.5488 59.9051C22.2659 59.0711 23.1915 58.6215 24.3257 58.5563C25.5014 58.4886 26.5285 58.8523 27.4069 59.6473C28.2852 60.4424 28.7671 61.4769 28.8523 62.7509Z" fill="#FF00FF"/>
+						<path d="M23.6783 43.3743L31.6449 46.1058L30.9277 48.3072L26.2904 46.7172L29.908 51.4371L29.2104 53.5786L21.2438 50.8472L21.961 48.6457L26.6131 50.2408L22.9806 45.5158L23.6783 43.3743Z" fill="#FF00FF"/>
+						<path d="M32.2478 31.713L33.6883 33.1803L31.9325 34.9426L36.4312 39.5252L34.7306 41.232L30.232 36.6494L28.4762 38.4117L27.0358 36.9443L32.2478 31.713Z" fill="#FF00FF"/>
+						<path d="M45.384 34.5231C44.8364 35.0366 44.191 35.3743 43.4478 35.5362L42.8523 33.7087C43.2684 33.6222 43.5905 33.472 43.8186 33.2581C44.0924 33.0013 44.1691 32.6764 44.0487 32.2832L35.8947 28.2603L37.7314 26.5379L43.0299 29.4863L40.4581 23.9812L42.2607 22.2909L45.7865 30.8923C46.1429 31.7582 46.2906 32.4585 46.2294 32.993C46.1754 33.5353 45.8936 34.0453 45.384 34.5231Z" fill="#FF00FF"/>
+						<path d="M52.578 30.0357L50.5936 19.189L52.9315 18.7764L53.1511 19.9764C53.642 18.9567 54.4155 18.3536 55.4717 18.1672C56.4971 17.9863 57.4502 18.2202 58.3311 18.8692C59.212 19.5181 59.775 20.5127 60.0202 21.8529C60.2635 23.1828 60.0873 24.3025 59.4915 25.212C58.9041 26.1093 58.0926 26.6494 57.0569 26.8321C56.0315 27.0131 55.0993 26.7486 54.2602 26.0387L54.9159 29.6231L52.578 30.0357ZM54.5419 24.5411C55.0095 24.8983 55.5253 25.0272 56.0893 24.9276C56.6532 24.8281 57.0911 24.531 57.4028 24.0362C57.7126 23.5311 57.8039 22.9305 57.6765 22.2344C57.553 21.559 57.2574 21.0428 56.7898 20.6856C56.3203 20.318 55.8036 20.184 55.2396 20.2835C54.6756 20.383 54.2387 20.6854 53.9289 21.1905C53.6274 21.6834 53.5404 22.2779 53.6677 22.974C53.7913 23.6494 54.0827 24.1717 54.5419 24.5411Z" fill="#FF00FF"/>
+						<path d="M74.7862 19.4259L73.1619 27.726L70.9059 27.2509L71.8514 22.4195L67.6984 26.5753L65.5037 26.1131L67.1281 17.813L69.3841 18.2881L68.4355 23.135L72.5916 18.9637L74.7862 19.4259Z" fill="#FF00FF"/>
+						<path d="M80.8869 31.7033C79.7656 31.083 79.0318 30.2162 78.6853 29.1031C78.3437 27.9808 78.4785 26.8468 79.0897 25.7011C79.6664 24.6201 80.499 23.8961 81.5875 23.5291C82.6761 23.162 83.7488 23.2709 84.8057 23.8557C85.9729 24.5014 86.6574 25.3827 86.8591 26.4994C87.0608 27.6162 86.8585 28.7428 86.2523 29.8792C86.1931 29.9901 86.0854 30.1698 85.929 30.4184L80.7869 27.5734C80.6366 28.1006 80.6511 28.5753 80.8305 28.9977C81.0099 29.42 81.3386 29.7634 81.8165 30.0278C82.469 30.3888 83.2019 30.4652 84.0153 30.2571L84.6453 31.9877C83.408 32.4998 82.1552 32.405 80.8869 31.7033ZM81.4617 26.2416L84.6186 27.9882C84.8106 27.4722 84.8451 26.9947 84.7222 26.5557C84.6085 26.1218 84.3356 25.7854 83.9037 25.5464C83.4809 25.3125 83.0507 25.26 82.613 25.3888C82.1894 25.5134 81.8056 25.7977 81.4617 26.2416Z" fill="#FF00FF"/>
+						<path d="M99.3796 37.2097L93.234 42.9102L91.6164 41.1303L93.9669 38.95L91.9769 36.7602L89.6264 38.9404L88.0088 37.1605L94.1544 31.46L95.772 33.2399L93.4101 35.4308L95.4001 37.6206L97.762 35.4298L99.3796 37.2097Z" fill="#FF00FF"/>
+						<path d="M104.704 51.1616L102.744 51.686L102.083 49.254L95.9602 50.8919L95.3207 48.5363L101.444 46.8984L100.784 44.4663L102.744 43.9419L104.704 51.1616Z" fill="#FF00FF"/>
+						<path d="M97.6911 60.5266C97.6412 59.6945 97.8285 58.9878 98.253 58.4064C98.6782 57.8356 99.2967 57.5297 100.109 57.4887C100.993 57.4441 101.678 57.7159 102.162 58.3042C102.647 58.9031 102.921 59.7239 102.984 60.7666C103.026 61.4723 102.953 62.168 102.764 62.8537L102.905 62.8466C103.925 62.7951 104.399 62.1637 104.326 60.9525C104.282 60.2257 104.085 59.4539 103.733 58.637L105.508 57.9452C106.018 58.9549 106.307 60.039 106.377 61.1976C106.453 62.4721 106.198 63.4411 105.612 64.1046C105.044 64.7459 104.173 65.0963 102.996 65.1557L98.1403 65.4007L98.0009 63.0782L98.9066 63.0325C98.1601 62.4257 97.755 61.5904 97.6911 60.5266ZM99.3743 61.1706C99.4078 61.7289 99.5703 62.175 99.8618 62.5089C100.164 62.8423 100.528 62.9982 100.955 62.9767L101.376 62.9554C101.558 62.492 101.631 61.9759 101.597 61.4071C101.565 60.8805 101.436 60.4749 101.211 60.1905C100.996 59.9161 100.696 59.7886 100.311 59.8081C99.9982 59.8238 99.7557 59.9576 99.5828 60.2093C99.4204 60.4605 99.3509 60.7809 99.3743 61.1706Z" fill="#FF00FF"/>
+						<path d="M97.1816 70.2789L105.146 73.0166L104.393 75.3222L100.341 76.3439L102.965 79.694L102.212 81.9996L94.2474 79.2619L95.0005 76.9562L99.7851 78.6009L97.2448 75.2464L101.188 74.154L96.448 72.5246L97.1816 70.2789Z" fill="#FF00FF"/>
+						</svg>
+					</a>
+					<div class="header__search">
+						<img src="img/search.png" alt="">
+						<input type="text" placeholder="Поиск...">
+					</div>
+					<a href="#" class="header__eye">
+						<img src="img/eye.png" alt="">
+					</a>
+    			<div class="header__checkbox">
+    				<input checked id="checkbox" type="checkbox">
+    				<label for="checkbox"><span></span><p></p></label>
+    			</div>					
+				</div>
+			</div>
+			<div class="header__bottom">
+				<a href="tel:74993488513" class="header__phone">+7 (499) 348-85-13</a>
+			</div>
+		</div>
+	</header>
+	<main class="main">
+		<div class="main__container">
+				<div class="main__body">
+					<div class="main__title">
+						Получи диплом гос. образца
+					</div>
+					<div class="main__subtitle">
+						Бизнес-специальность за 3 года после 9 класса, и за 2 года после 11 класса, без учета среднего балла аттестата!
+					</div>
+					<div class="main__buttons">
+						<a href="#popup" class="main__button button">
+							Поступить в колледж
+						</a>
+						<a href="#" class="main__doc">
+							Подать документы
+						</a>
+					</div>
+				</div>
+				<div data-da=".welcome__content,991,1"class="main__carousel">
+					<a href="#"><img src="img/call.png" alt=""></a>
+					<div class="main__slider">
+						<div class="main__slide">
+							<img src="img/1.png" alt="">
+						</div>
+						<div class="main__slide">
+							<img src="img/2.png" alt="">
+						</div>			
+						<div class="main__slide">
+							<img src="img/1.png" alt="">
+						</div>
+						<div class="main__slide">
+							<img src="img/2.png" alt="">
+						</div>							
+					</div>			
+				</div>				
+		</div>
+	</main>
+	<div class="welcome">
+		<div class="welcome__container">
+			<div class="welcome__content">
+				<div class="welcome__text">
+					<p>Добро <br>пожаловать!</p>
+					<b>Колледж мировой экономики и передовых технологий — отличный выбор!</b>
+					<b>Мы поможем получить среднее профессиональное образование на базе института!</b>
+				</div>
+				<a href="#">Смотреть видео о нас</a>
+			</div>
+			<form action="#" class="welcome__form">
+				<p>Приходите на день <br> открытых дверей!</p>
+				<input type="text" name="name" placeholder="Имя" required>
+				<input type="text" name="number" placeholder="Номер телефона" required>
+				<button class="button">Записаться</button>
+				<small>
+					* Нажимая кнопку “Записаться”, вы соглашаетесь с условиями обработки ваших персональных данных.
+				</small>
+			</form>
+		</div>
+	</div>
+ <div class="college">
+		<div class="college__container">
+			<div class="college__title title">
+				Наш колледж для тех, ...
+			</div>
+			<div class="college__cards">
+				<div class="college__card">
+					<p>кому важно получение диплома специалиста гос. образца
+					<span>
+						01
+					</span></p>
+				</div>
+				<div class="college__card">
+					<p>кто хочет дать ребенку качественное и современное среднее проф. образование
+					<span>
+						02
+					</span></p>
+				</div>	
+				<div class="college__card">
+					<img src="img/grid/1.png" alt="">
+				</div>
+				<div class="college__card">
+					<p>кто не хочет, чтобы их дети подвергались стрессу, сдавая ЕГЭ
+					<span>
+						04
+					</span></p>
+				</div>
+				<div class="college__card">
+					<img src="img/grid/2.png" alt="">
+				</div>	
+				<div class="college__card">
+					<img src="img/grid/3.png" alt="">
+				</div>
+				<div class="college__card">
+					<p>кто планирует в будущем получение высшего образования в престижном ВУЗе
+					<span>
+						03
+					</span></p>
+				</div>
+				<div class="college__card">
+					<p>кто хочет жить студенческой жизнью уже сейчас независимо от среднего балла аттестата
+					<span>
+						05
+					</span></p>
+				</div>	
+				<div class="college__card">
+					<a href="#" class="">
+						<b>Подробнее</b>
+						<center>
+							<svg width="30" height="14" viewBox="0 0 30 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path d="M28.2942 6.90002L1.00866 6.90002M28.2942 6.90002L22.2307 12.3667M28.2942 6.90002L22.2307 1.43335" stroke="#293CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+							</svg>
+						</center>		
+					</a>
+				</div>	
+				<div class="college__card">
+					<p>кто закончил 11 класс и не сдавал ЕГЭ, предлагаем международную программу ИМЭС
+					<span>
+						06
+					</span></p>
+				</div>	
+				<div class="college__card">
+					<img src="img/grid/4.png" alt="">
+				</div>																														
+			</div>
+		</div>
+	</div>
+	<div class="specials">
+		<div class="specials__container">
+			<div class="specials__title title">
+				Наши <br>специальности
+			</div>
+			<div class="specials__cards">
+				<div class="specials__card specials__card-pink">
+					<div class="specials__top">
+						<span></span>Экономика и бухгалтерский учет
+					</div>
+					<div class="specials__body">
+						<p>
+							Вы обретете следующие навыки (soft skills):
+						</p>
+						<span>
+							• Тайм-менеджмент<br>
+							• Стрессоустойчивость<br>
+							• Критическое мышление<br>
+							• Коммуникативные навыки<br>
+							• Лидерские качества
+						</span>	
+						<center>
+							<a href="#">
+								<svg width="30" height="14" viewBox="0 0 30 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M28.2942 6.90002L1.00866 6.90002M28.2942 6.90002L22.2307 12.3667M28.2942 6.90002L22.2307 1.43335" stroke="#FF00FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>							
+							</a>							
+						</center>
+					</div>
+				</div>
+				<div class="specials__card specials__card-blue">
+					<div class="specials__top">
+						<span></span>Инфо системы и программирование
+					</div>
+					<div class="specials__body">
+						<p>
+							Вы обретете следующие навыки (soft skills):
+						</p>
+						<span>
+							• Эмпатия<br>
+							• Стрессоустойчивость<br>
+							• Командная работа<br>
+							• Критическое мышление<br>
+							• Тайм-менеджмент
+						</span>	
+						<center>
+							<a href="#">
+								<svg width="30" height="14" viewBox="0 0 30 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M28.2942 6.90002L1.00866 6.90002M28.2942 6.90002L22.2307 12.3667M28.2942 6.90002L22.2307 1.43335" stroke="#293CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>							
+							</a>							
+						</center>
+					</div>
+				</div>
+				<div class="specials__card specials__card-green">
+					<div class="specials__top">
+						<span></span>Право и организация соц обеспечения
+					</div>
+					<div class="specials__body">
+						<p>
+							Вы обретете следующие навыки (soft skills):
+						</p>
+						<span>
+							• Ораторское искусство <br>
+							• Стрессоустойчивость<br>
+							• Командная работа<br>
+							• Лидерские качества<br>
+							• Ведение переговоров
+						</span>	
+						<center>
+							<a href="#">
+								<svg width="30" height="14" viewBox="0 0 30 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M28.2942 6.90002L1.00866 6.90002M28.2942 6.90002L22.2307 12.3667M28.2942 6.90002L22.2307 1.43335" stroke="#00FE5D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>							
+							</a>							
+						</center>
+					</div>
+				</div>
+				<div class="specials__card specials__card-pink">
+					<div class="specials__top">
+						<span></span>Экономика и бухгалтерский учет
+					</div>
+					<div class="specials__body">
+						<p>
+							Вы обретете следующие навыки (soft skills):
+						</p>
+						<span>
+							• Тайм-менеджмент<br>
+							• Стрессоустойчивость<br>
+							• Критическое мышление<br>
+							• Коммуникативные навыки<br>
+							• Лидерские качества
+						</span>	
+						<center>
+							<a href="#">
+								<svg width="30" height="14" viewBox="0 0 30 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M28.2942 6.90002L1.00866 6.90002M28.2942 6.90002L22.2307 12.3667M28.2942 6.90002L22.2307 1.43335" stroke="#FF00FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>							
+							</a>							
+						</center>
+					</div>
+				</div>
+				<div class="specials__card specials__card-blue">
+					<div class="specials__top">
+						<span></span>Инфо системы и программирование
+					</div>
+					<div class="specials__body">
+						<p>
+							Вы обретете следующие навыки (soft skills):
+						</p>
+						<span>
+							• Эмпатия<br>
+							• Стрессоустойчивость<br>
+							• Командная работа<br>
+							• Критическое мышление<br>
+							• Тайм-менеджмент
+						</span>	
+						<center>
+							<a href="#">
+								<svg width="30" height="14" viewBox="0 0 30 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M28.2942 6.90002L1.00866 6.90002M28.2942 6.90002L22.2307 12.3667M28.2942 6.90002L22.2307 1.43335" stroke="#293CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>							
+							</a>							
+						</center>
+					</div>
+				</div>
+				<div class="specials__card specials__card-green">
+					<div class="specials__top">
+						<span></span>Право и организация соц обеспечения
+					</div>
+					<div class="specials__body">
+						<p>
+							Вы обретете следующие навыки (soft skills):
+						</p>
+						<span>
+							• Ораторское искусство <br>
+							• Стрессоустойчивость<br>
+							• Командная работа<br>
+							• Лидерские качества<br>
+							• Ведение переговоров
+						</span>	
+						<center>
+							<a href="#">
+								<svg width="30" height="14" viewBox="0 0 30 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path d="M28.2942 6.90002L1.00866 6.90002M28.2942 6.90002L22.2307 12.3667M28.2942 6.90002L22.2307 1.43335" stroke="#00FE5D" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+								</svg>							
+							</a>							
+						</center>
+					</div>
+				</div>												
+			</div>
+			<a href="#" class="specials__button button">
+				Узнать больше
+			</a>
+		</div>
+	</div>
+	<div class="cost">
+		<div class="cost__container">
+			<div class="cost__title title">
+				Рассчитаем <br>деньги и сроки
+			</div>
+			<div class="cost__body">
+				<div class="cost__calc">
+					<div class="cost__top">
+						<div class="cost__label label-list">
+							Хочу быть
+							<img src="img/arrow.svg" alt="">
+						</div>
+						<div class="cost__who">
+							<p>
+								Юристом
+							</p>
+							<button class="cost__button1 button">
+								Рассчитать
+							</button>
+						</div>
+					</div>
+					<ul class="cost__professions">
+						<span>
+							Юристом
+						</span>
+						<span>
+							Логистом
+						</span>
+						<span>
+							Экономистом
+						</span>
+						<span>
+							Программистом
+						</span>
+						<span>
+							Специальность
+						</span>
+						<span>
+							Специальность
+						</span>
+						<span>
+							Специальность
+						</span>												
+					</ul>					
+					<div class="cost__label">
+						Срок учебы
+					</div>
+					<input disabled type="text" class="cost__terms" value="3 года">
+					<div class="cost__label">
+						Срок обучения окупится через
+					</div>					
+					<input disabled type="text" class="cost__benefit" value="4 месяца">
+					<div class="cost__label">
+						Заработок за год составит
+					</div>
+					<input disabled type="text" class="cost__money" value="1 800 000 рублей">								
+				</div>
+				<div class="cost__right">
+					<div class="cost__image">
+						<img src="img/3.png" alt="">
+					</div>
+					<button href="#" class="cost__button2 button">
+						Подать документы!
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<div class="teacher">
+		<div class="teacher__container">
+			<div class="teacher__title title">
+				Наши преподаватели
+			</div>
+			<div class="teacher__cards">
+				<div class="teacher__card">
+					<div class="teacher__content">
+						<div class="teacher__image">
+							<img src="img/teacher/1.png" alt="">
+						</div>
+						<div class="teacher__name">
+							Богомолова<br> Елена Васильевна
+						</div>
+						<div class="teacher__desc">
+							Директор
+						</div>						
+					</div>
+					<div class="teacher__contacts">
+						<a href="tel:74993482020">+7 (499) 348 20 20</a><br>
+						<a href="mailto:info@kmept.ru">info@kmept.ru</a>
+					</div>
+				</div>
+				<div class="teacher__card">
+					<div class="teacher__content">
+						<div class="teacher__image">
+							<img src="img/teacher/2.png" alt="">
+						</div>
+						<div class="teacher__name">
+							Филимонова<br> Анжела Николаевна
+						</div>
+						<div class="teacher__desc">
+							Зам. директора по учебно-воспитательной работе
+						</div>
+					</div>
+					<div class="teacher__contacts">
+						<a href="tel:74996475028">+7 (499) 647-50-28</a><br>
+						<a href="mailto:filimonova@kmept.ru">filimonova@kmept.ru</a>
+					</div>
+				</div>	
+				<div class="teacher__card">
+					<div class="teacher__content">
+						<div class="teacher__image">
+							<img src="img/teacher/3.png" alt="">
+						</div>
+						<div class="teacher__name">
+							Богомолова<br> Юлия Игоревна
+						</div>
+						<div class="teacher__desc">
+							Зам. директора по методической работе
+						</div>
+					</div>
+					<div class="teacher__contacts">
+						<a href="tel:74996475028">+7 (499) 647-50-28</a><br>
+						<a href="mailto:info@kmept.ru">info@kmept.ru</a>
+					</div>
+				</div>	
+				<div class="teacher__card">
+					<div class="teacher__content">
+						<div class="teacher__image">
+							<img src="img/teacher/4.png" alt="">
+						</div>
+						<div class="teacher__name">
+							Забрамная<br> Наталья Юрьевна 
+						</div>
+						<div class="teacher__desc">
+							Право
+						</div>
+					</div>	
+					<div class="teacher__contacts">
+						Кандидат юридических наук. Доцент. Почетный адвокат РФ. <br>
+						Стаж: 33 года 9 месяцев
+					</div>
+				</div>	
+				<div class="teacher__card">
+					<div class="teacher__content">
+						<div class="teacher__image">
+							<img src="img/teacher/4.png" alt="">
+						</div>
+						<div class="teacher__name">
+							Клюкина <br>Дина Владимировна 
+						</div>
+						<div class="teacher__desc">
+							Математика и Информатика
+						</div>
+					</div>
+					<div class="teacher__contacts">
+						Кандидат физико-математических наук. Доцент. <br>
+						Стаж: 17 лет 9 месяцев
+					</div>
+				</div>			
+				<div class="teacher__card">
+					<div class="teacher__content">
+						<div class="teacher__image">
+							<img src="img/teacher/4.png" alt="">
+						</div>
+						<div class="teacher__name">
+							Скотченко <br>Андрей Сергеевич  
+						</div>
+						<div class="teacher__desc">
+							Информатика
+						</div>
+					</div>
+					<div class="teacher__contacts">
+						Инженер-механик. Кандидат технических наук. Доцент. <br>
+						Стаж: 26 лет 9 месяцев
+					</div>
+				</div>						
+			</div>
+		</div>
+	</div>	
+	<div class="info">
+		<div class="info__container">
+			<div class="info__contacts">
+				<b>
+					Ответим на ваши вопросы!
+				</b>
+				<div class="info__content">
+					<p>
+						<a href="74993488513">+7 (499) 348-85-13</a>
+						<a href="74996475028">+7 (499) 647-50-28</a>
+						<span>Софья Александровна Геркович</span>
+					</p>
+					<img src="img/reviews/1.png" alt="">
+					<a href="#">
+						<img src="img/call.png" alt="">
+					</a>
+				</div>
+			</div>
+			<div class="info__wrapper">
+				<div class="info__slider">
+					<div class="info__slide">
+						<div class="info__title">
+							Отзывы
+						</div>
+						<div class="info__stars">
+							<span>Олег</span>
+							<img src="img/reviews/star.png" alt="">
+							<img src="img/reviews/star.png" alt="">
+							<img src="img/reviews/star.png" alt="">
+							<img src="img/reviews/star.png" alt="">
+							<img src="img/reviews/star.png" alt="">
+						</div>
+						<div class="info__text">
+							“Я студент колледжа КМЭПТ. Колледж мне очень понравился, очень образованные учителя, отличные одногруппники, добрый и отзывчивый куратор, новый ремонт, интересные праздники и конкурсы, в целом, колледж – бомба”.
+						</div>
+						<div class="info__image">
+							<img src="img/reviews/2.png" alt="">
+						</div>
+					</div>
+					<div class="info__slide">
+						<div class="info__title">
+							Отзывы
+						</div>
+						<div class="info__stars">
+							<span>Олег</span>
+							<img src="img/reviews/star.png" alt="">
+							<img src="img/reviews/star.png" alt="">
+							<img src="img/reviews/star.png" alt="">
+							<img src="img/reviews/star.png" alt="">
+							<img src="img/reviews/star.png" alt="">
+						</div>
+						<div class="info__text">
+							“Я студент колледжа КМЭПТ. Колледж мне очень понравился, очень образованные учителя, отличные одногруппники, добрый и отзывчивый куратор, новый ремонт, интересные праздники и конкурсы, в целом, колледж – бомба”.
+						</div>
+						<div class="info__image">
+							<img src="img/reviews/2.png" alt="">
+						</div>
+					</div>					
+				</div>
+				<a href="#" class="info__more">Ещё отзывы</a>
+			</div>
+		</div>
+	</div>
+
+	<div class="video">
+		<div class="video__container">
+			<div class="video__title title">
+				Колледж в ИМЭС
+			</div>
+			<div class="video__content">
+				<iframe loading="lazy" width="560" height="315" src="https://www.youtube.com/embed/APO0YdUgFY8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+			</div>
+		</div>
+	</div>		
+	<div class="news">
+		<div class="news__container">
+			<div class="news__title title">
+				Наши новости
+			</div>
+			<div class="news__cards">
+				<div class="news__card">
+					<p>
+						Какие вопросы задать специалисту Приемной комиссии?
+					</p>
+					<span>
+						Они обязательно помогут тебе сделать правильный выбор!
+					</span>
+					<a href="#">Читать
+						<svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_412_95)">
+						<path d="M21.1543 10.5L2.88507 10.5M21.1543 10.5L17.0945 14M21.1543 10.5L17.0945 7" stroke="#293CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_412_95">
+						<rect width="21" height="25" fill="white" transform="translate(25) rotate(90)"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+					</a>
+					<img src="img/news/1.png" alt="">
+				</div>
+				<div class="news__card">
+					<p>
+						Ценность <br>образования в нашем обществе
+					</p>
+					<span>
+						Недавно услышали: "Образование никогда не окупит себя!"
+					</span>
+					<a href="#">Читать
+						<svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_412_95)">
+						<path d="M21.1543 10.5L2.88507 10.5M21.1543 10.5L17.0945 14M21.1543 10.5L17.0945 7" stroke="#293CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_412_95">
+						<rect width="21" height="25" fill="white" transform="translate(25) rotate(90)"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+					</a>
+					<img src="img/news/2.png" alt="">
+				</div>	
+				<div class="news__card">
+					<p>
+						Какие вопросы задать специалисту Приемной комиссии?
+					</p>
+					<span>
+						Они обязательно помогут тебе сделать правильный выбор!
+					</span>
+					<a href="#">Читать
+						<svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_412_95)">
+						<path d="M21.1543 10.5L2.88507 10.5M21.1543 10.5L17.0945 14M21.1543 10.5L17.0945 7" stroke="#293CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_412_95">
+						<rect width="21" height="25" fill="white" transform="translate(25) rotate(90)"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+					</a>
+					<img src="img/news/1.png" alt="">
+				</div>
+				<div class="news__card">
+					<p>
+						Ценность <br>образования в нашем обществе
+					</p>
+					<span>
+						Недавно услышали: "Образование никогда не окупит себя!"
+					</span>
+					<a href="#">Читать
+						<svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_412_95)">
+						<path d="M21.1543 10.5L2.88507 10.5M21.1543 10.5L17.0945 14M21.1543 10.5L17.0945 7" stroke="#293CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_412_95">
+						<rect width="21" height="25" fill="white" transform="translate(25) rotate(90)"/>
+						</clipPath>
+						</defs>
+						</svg>
+
+					</a>
+					<img src="img/news/2.png" alt="">
+				</div>							
+			</div>
+			<a href="#" class="news__more">
+				Все новости
+			</a>
+		</div>
+	</div>
+	<div class="mobile">
+		<p>
+			Запишитесь на день открытых дверей в КМЭПТ!
+		</p>
+		<button class="button">
+			Записаться
+		</button>
+	</div>
+	<div class="accreditation">
+		<div class="accreditation__container">
+			<div class="accreditation__title title">
+				Наш колледж аккредитирован <p>министерством образования РФ</p>
+			</div>
+			<div class="accreditation__slider">
+				<div class="accreditation__slide">
+					<img src="img/accreditation/1.png" alt="">
+				</div>
+				<div class="accreditation__slide">
+					<img src="img/accreditation/2.png" alt="">
+				</div>
+				<div class="accreditation__slide">
+					<img src="img/accreditation/3.png" alt="">
+				</div>	
+				<div class="accreditation__slide">
+					<img src="img/accreditation/4.png" alt="">
+				</div>
+				<div class="accreditation__slide">
+					<img src="img/accreditation/5.png" alt="">
+				</div>
+				<div class="accreditation__slide">
+					<img src="img/accreditation/6.png" alt="">
+				</div>															
+			</div>
+			<a href="#">Подробнее
+					<svg width="25" height="21" viewBox="0 0 25 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<g clip-path="url(#clip0_412_95)">
+						<path d="M21.1543 10.5L2.88507 10.5M21.1543 10.5L17.0945 14M21.1543 10.5L17.0945 7" stroke="#293CF4" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+						</g>
+						<defs>
+						<clipPath id="clip0_412_95">
+						<rect width="21" height="25" fill="white" transform="translate(25) rotate(90)"/>
+						</clipPath>
+						</defs>
+					</svg>
+			</a>			
+		</div>
+	</div>
+		
+	<div class="title title__container">
+		Наши контакты
+	</div>
+	<div class="contacts">
+		<div class="contacts__map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2247.6775763114056!2d37.50674747435922!3d55.71197600624154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46b54c12d88d5aa7%3A0xd66da62046be8a52!2z0JjQvdGB0YLQuNGC0YPRgiDQvNC10LbQtNGD0L3QsNGA0L7QtNC90YvRhSDRjdC60L7QvdC-0LzQuNGH0LXRgdC60LjRhSDRgdCy0Y_Qt9C10Lk!5e0!3m2!1sru!2s!4v1661167598559!5m2!1sru!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</div>		
+		<div class="contacts__content">
+			<div class="contacts__information">
+				<p>
+					Свяжитесь с нами
+				</p>
+				<p>
+					<small>
+						Телефон:
+					</small>
+					<a href="tel:74993489536">+7 (499) 348-95-36</a>						
+				</p>
+				<p>
+					<small>
+						Адрес:
+					</small>
+					<span>
+						Станция метро Ломоносовский проспект
+					</span><br>
+					<span>
+						Москва, Мосфильмовская, дом 35
+					</span>
+				</p>
+				<p>
+					<small>
+						График работы:
+					</small>
+					<span>
+						пн-пт: с 08:00 до 19:00
+					</span>
+				</p>
+				<div class="contacts__socials">
+					<a href="#"><img src="img/contacts/1.png" alt=""></a>
+					<a href="#"><img src="img/contacts/2.png" alt=""></a>
+					<a href="#"><img src="img/contacts/3.png" alt=""></a>
+				</div>
+			</div>
+			<div class="contacts__info-m">
+				<div class="contacts__top">
+					<a href="tel:74993489536">+7 (499) 348-95-36</a>	
+					<div class="contacts__socials contacts__socials-b">
+						<a href="#"><img src="img/contacts/4.png" alt=""></a>
+						<a href="#"><img src="img/contacts/5.png" alt=""></a>
+						<a href="#"><img src="img/contacts/6.png" alt=""></a>
+					</div>
+					<div class="contacts__socials contacts__socials-w">
+						<a href="#"><img src="img/contacts/1.png" alt=""></a>
+						<a href="#"><img src="img/contacts/2.png" alt=""></a>
+						<a href="#"><img src="img/contacts/3.png" alt=""></a>
+					</div>					
+				</div>
+					<span>
+						Станция метро Ломоносовский проспект
+					</span><br>
+					<span>
+						Москва, Мосфильмовская, дом 35
+					</span>
+					<a href="#" class="contacts__confidence">
+						Условия использования материалов
+					</a>
+					<a  href="#"class="contacts__confidence">
+						Политика конфиденциальности
+					</a>
+					<b>
+						Колледж мировой экономики и передовых технологий <br>
+						Лицензия №041206 от 25.12.2020 <br>
+						Аккредитация №005035 от 14.03.2022 <br>
+						2021 © КМЭПТ Все права защищены 
+					</b>						
+				
+			</div>
+		</div>
+
+	</div>
+
+	<footer class="footer">
+		<div class="footer__container">
+			<div class="footer__left">
+				<div class="footer__logo">
+					<img src="img/logo-w.png" alt="">
+					<p>
+						Колледж мировой экономики и передовых технологий
+					</p>
+				</div>
+				<ul class="footer__list">
+					<a href="#">
+						<li>О коллежде</li>
+					</a>
+					<a href="#">
+						<li>Преподаватели</li>
+					</a>
+					<a href="#">
+						<li>Приемная комиссия</li>
+					</a>
+					<a href="#">
+						<li>Калькулятор</li>
+					</a>
+					<a href="#">
+						<li>Специальности</li>
+					</a>
+				</ul>				
+			</div>
+			<div class="footer__right">
+				<a href="#">Условия использования материалов</a>
+				<a href="#">Политика конфиденциальности</a>
+				<p>
+					Колледж мировой экономики и передовых технологий<br>
+					Лицензия №041206 от 25.12.2020 <br>
+					Аккредитация №005035 от 14.03.2022 <br>
+					2021 © КМЭПТ Все права защищены
+				</p>	
+				<span>
+					RU
+				</span>
+			</div>
+		</div>
+	</footer>
+
+   <form id="form-popup" class="form-popup">
+      <p class="form-popup__close1"></p>
+      <div class="form-popup__content">
+         <span class="form-popup__close"></span>
+         <div class="form-popup__title">
+         	Подайте заявку на обучение 
+         </div>
+         <div class="form-popup__title success">
+         	Заявка<br> отправлена!
+         </div>         
+         <div class="form-popup__success">
+         	<p>
+         		Наш специалист приемной комиссии скоро свяжется с вами</p>
+		         <button>
+		           Хорошо!
+		         </button>          		
+         	
+         </div>
+         <input type="text" name="name" placeholder="Имя" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Имя'">
+         <input type="text" name="number" placeholder="Номер телефона" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Номер телефона'">
+         <input type="email" name="email" placeholder="E-mail" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Почта'">
+         <select name="specials">
+         	<option selected disabled value="Выбрать специальность">Выбрать специальность</option>
+         	<option value="Экономика и бухгалтерский учет">Экономика и бухгалтерский учет</option>
+         	<option value="Инфо системы и программирование">Инфо системы и программирование</option>
+        		<option value="Право и организация соц обеспечения">Право и организация соц обеспечения</option>
+         	<option value="Организационная деятельность в логистике">Организационная деятельность в логистике</option>
+         	<option value="Коммерция">Коммерция</option>
+         </select>
+         <button>
+           Отправить
+         </button>    
+         <small>
+         	* Нажимая кнопку “Отправить”, вы соглашаетесь с условиями обработки ваших персональных данных.
+         </small> 
+      </div>
+   </form>
+
+   <form class="popup">
+      <p class="popup__close1"></p>
+      <div class="popup__content">
+         <span class="popup__close"></span>
+         <div class="popup__image">
+         	<img src="img/news/2.png" alt="">
+         </div>
+         <div class="popup__title">
+         	Ценность образования в наши дни
+         </div>
+         <div class="popup__em">
+         	Недавно услышали: "Образование никогда не окупит себя!"
+         </div>
+	      <div class="popup__text">
+	      	А вы считаете также? Такая мысль закрадывается по одной простой причине - вы думаете, что в современных учебных заведениях до сих пор учат по учебникам 1800-х годов и вся практика заключается в покупке канцелярии.
+				<br><br>	      	
+				Давайте развеем это мнение. Насмотревшись сериалов, фильмов, многие представляют себе пары так: преподаватель монотонным голосом читает с листка, а все студенты записывают слово в слово. А практику представляют вот так: пришел, тут бумажки с одного стола на другой переложил, там канцтоваров купил, вот и поставят тебе заветную оценку "Отлично".
+				<br><br>
+				А теперь представьте, вы приходите на занятия и вместо нудной лекции, вам предложат сыграть в бизнес-игру или составить бизнес-план с просчетом реальных затрат, срока окупаемости и прибыли? А на семинарах — посмотреть фильм и высказать собственное мнение, естественно, в рамках дисциплины!
+				<br><br>
+				Вспомните, когда начали работать ваши родители и за какие деньги? И представьте, что вы сможете это сделать на 3 курсе и, минимум, за 25.000 — 30.000 рублей! И ни в каком-то подвале или «шарашкиной конторе», а в крупных профильных организациях.
+				<br><br>
+				Теперь давайте сравним: чтобы ежемесячно получать от 30.000 рублей, нужно ежедневно откладывать по 500 рублей — стоимость обеда в BurgerKing.
+				<br><br>
+				Только зачастую цены на бургеры растут, а у нас фиксируются на весь период обучения!
+				<br><br>
+				Хотите убедиться в том, что образование окупит себя? Тогда оставляйте заявку, и мы развеем этот миф на практике!
+	      </div>	       
+	      <button class="popup__button">
+	      	Подать документы
+	      </button>
+      </div>
+   </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="js/dynamicAdapt.js"></script>
+<script src="js/slick.min.js"></script>
+<script src="js/jquery.nice-select.js"></script> 
+<script src="js/script.js"></script>  
+</body>
+</html>
