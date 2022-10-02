@@ -43,10 +43,55 @@
 					<a href="#" class="header__eye">
 						<img src="img/eye.png" alt="">
 					</a>
-    			<div class="header__checkbox">
-    				<input checked id="checkbox" type="checkbox">
-    				<label for="checkbox"><span></span><p></p></label>
-    			</div>					
+	    			<div class="header__checkbox">
+	    				<input checked id="checkbox" type="checkbox">
+	    				<label for="checkbox"><span></span><p></p></label>
+	    			</div>		
+	    			<div class="header__menu">
+	    				<div class="header__burger"><span></span></div>		
+	    				<nav class="menu">
+	    					<ul class="menu__list">
+	    						<li class="menu__search">
+	    							<img src="img/search.png" alt="">
+	    							<img src="img/search-w.png" alt="">
+	    							<input type="text">
+	    						</li>
+	    						<li class="menu__item"><a href="#college" class="menu__link">О колледже</a></li>
+	    						<li class="menu__item"><a href="#specials" class="menu__link">Специальности</a></li>
+	    						<li class="menu__item"><a href="#video" class="menu__link">Приемная комиссия</a></li>
+	    						<li class="menu__item"><a href="#teachers" class="menu__link">Преподаватели</a></li>
+	    						<li class="menu__item"><a href="#reviews" class="menu__link">Отзывы</a></li>
+	    						<li class="menu__item"><a href="#news" class="menu__link">Новости</a></li>
+	    						<li class="menu__item"><a href="#cost" class="menu__link">Калькулятор</a></li>
+	    						<li class="menu__item"><a href="#license" class="menu__link">Лицензии</a></li>		    						
+	    						<div class="menu__actions">
+					    			<div class="header__checkbox">
+					    				<input id="checkbox" type="checkbox">
+					    				<label for="checkbox"><span></span><p></p></label>
+					    			</div>
+									<a href="#" class="header__eye">
+										<img src="img/eye.png" alt="">
+									</a>								
+	    						</div>
+	    						<li class="menu__bottom">
+	    							<span>Станция метро <br>Ломоносовский проспект</span>
+	    							<p>
+	    								<span>Москва,<br> Мосфильмовская, дом 35</span>
+	    								<b>
+	    									<a href="#"><img src="img/contacts/4.png" alt=""></a>
+	    									<a href="#"><img src="img/contacts/5.png" alt=""></a>
+	    									<a href="#"><img src="img/contacts/6.png" alt=""></a>
+	    								</b>
+	    								<b>
+	    									<a href="#"><img src="img/contacts/1.png" alt=""></a>
+	    									<a href="#"><img src="img/contacts/2.png" alt=""></a>
+	    									<a href="#"><img src="img/contacts/3.png" alt=""></a>
+	    								</b>
+	    							</p>
+	    						</li>	
+	    					</ul>
+	    				</nav>
+	    			</div>
 				</div>
 			</div>
 			<div class="header__bottom">
@@ -93,26 +138,28 @@
 	</main>
 	<div class="welcome">
 		<div class="welcome__container">
-			<div class="welcome__content">
-				<div class="welcome__text">
-					<p>Добро <br>пожаловать!</p>
-					<b>Колледж мировой экономики и передовых технологий — отличный выбор!</b>
-					<b>Мы поможем получить среднее профессиональное образование на базе института!</b>
+			<div class="welcome__wrapper">
+				<div class="welcome__content">
+					<div class="welcome__text">
+						<p>Добро <br>пожаловать!</p>
+						<b>Колледж мировой экономики и передовых технологий — отличный выбор!</b>
+						<b>Мы поможем получить среднее профессиональное образование на базе института!</b>
+					</div>
+					<a href="#">Смотреть видео о нас</a>
 				</div>
-				<a href="#">Смотреть видео о нас</a>
+				<form action="#" class="welcome__form">
+					<p>Приходите на день <br> открытых дверей!</p>
+					<input type="text" name="name" placeholder="Имя" required>
+					<input type="text" name="number" placeholder="Номер телефона" required>
+					<button class="button">Записаться</button>
+					<small>
+						* Нажимая кнопку “Записаться”, вы соглашаетесь с условиями обработки ваших персональных данных.
+					</small>
+				</form>				
 			</div>
-			<form action="#" class="welcome__form">
-				<p>Приходите на день <br> открытых дверей!</p>
-				<input type="text" name="name" placeholder="Имя" required>
-				<input type="text" name="number" placeholder="Номер телефона" required>
-				<button class="button">Записаться</button>
-				<small>
-					* Нажимая кнопку “Записаться”, вы соглашаетесь с условиями обработки ваших персональных данных.
-				</small>
-			</form>
 		</div>
 	</div>
- <div class="college">
+ 	<div id="college" class="college">
 		<div class="college__container">
 			<div class="college__title title">
 				Наш колледж для тех, ...
@@ -179,7 +226,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="specials">
+	<div id="specials" class="specials">
 		<div class="specials__container">
 			<div class="specials__title title">
 				Наши <br>специальности
@@ -335,7 +382,7 @@
 			</a>
 		</div>
 	</div>
-	<div class="cost">
+	<div id="cost" class="cost">
 		<div class="cost__container">
 			<div class="cost__title title">
 				Рассчитаем <br>деньги и сроки
@@ -403,7 +450,7 @@
 			</div>
 		</div>
 	</div>	
-	<div class="teacher">
+	<div id="teachers" class="teacher">
 		<div class="teacher__container">
 			<div class="teacher__title title">
 				Наши преподаватели
@@ -514,7 +561,7 @@
 			</div>
 		</div>
 	</div>	
-	<div class="info">
+	<div id="reviews" class="info">
 		<div class="info__container">
 			<div class="info__contacts">
 				<b>
@@ -578,7 +625,7 @@
 		</div>
 	</div>
 
-	<div class="video">
+	<div id="video" class="video">
 		<div class="video__container">
 			<div class="video__title title">
 				Колледж в ИМЭС
@@ -588,7 +635,7 @@
 			</div>
 		</div>
 	</div>		
-	<div class="news">
+	<div id="news" class="news">
 		<div class="news__container">
 			<div class="news__title title">
 				Наши новости
@@ -696,7 +743,7 @@
 			Записаться
 		</button>
 	</div>
-	<div class="accreditation">
+	<div id="license" class="accreditation">
 		<div class="accreditation__container">
 			<div class="accreditation__title title">
 				Наш колледж аккредитирован <p>министерством образования РФ</p>
